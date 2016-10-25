@@ -26,7 +26,8 @@ namespace SeniorDesign
         {
             InitializeComponent();
             Switcher.pageSwitcher = this;
-            Switcher.Switch(new Depth());
+            //Switcher.Switch(new Depth());
+            this.Navigate(new Depth());
             
         }
 
